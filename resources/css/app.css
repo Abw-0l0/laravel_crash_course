@@ -9,3 +9,11 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+body {
+    @apply m-0 p-0 font-mono bg-gray-200;
+}
+
+.section-css {
+    @apply p-10 m-8 bg-gray-400 text-white font-semibold drop-shadow-lg rounded-2xl;
+}

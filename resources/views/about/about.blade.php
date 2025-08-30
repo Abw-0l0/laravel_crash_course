@@ -1,5 +1,6 @@
 <x-layout>
     <section class="section-css">
-        <h1>Laravel crash course</h1>
+        <h1>About page</h1>
+        <h2>{{ $name }}</h2>
     </section>
 </x-layout>
